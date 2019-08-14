@@ -1,0 +1,105 @@
+body {
+  background: #eee;
+}
+
+.main-container {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.pageHeading {
+
+  .ant-page-header {
+    background: #03A9F4;
+
+    .ant-page-header-heading-title {
+      color: #fff;
+    }
+  }
+
+  .ant-dropdown-link {
+    color: #fff;
+  }
+
+  .ant-page-header-heading-extra {
+    a {
+      color: #fff;
+    }
+  }
+}
+
+.login-holder {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+  h1 {
+    font-weight: 400;
+    font-size: 18px;
+  }
+
+  #components-form-demo-normal-login {
+    padding: 15px;
+    background: #fff;
+  }
+
+}
+
+#components-form-demo-normal-login .login-form {
+  max-width: 300px;
+  width: 300px;
+
+}
+
+#components-form-demo-normal-login .login-form-forgot {
+  float: right;
+}
+
+#components-form-demo-normal-login .login-form-button {
+  width: 100%;
+}
+
+.register-form {
+  width: 700px;
+  background: #fff;
+  padding: 15px;
+}
+
+.table {
+  .ant-table-wrapper {
+    background: #fff;
+  }
+}
+
+.addContact {
+  float: right;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.clearfix {
+  clear: both;
+  height: 0;
+
+  &::after {
+    clear: both
+  }
+
+  &:before {
+    clear: both;
+  }
+}
+
+.add-form {
+  background: #fff;
+  padding: 15px;
+  width: 700px;
+  margin: 0 auto;
+
+  h1 {
+    font-size: 18px;
+  }
+}
